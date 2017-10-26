@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hazte socio | CPL Brigantium</title><meta name="description" content="Website de CPL Brigantium"><link rel="icon" type="image/png" href="i/favicon.png"><link rel="stylesheet" href="brigantium.css"><link rel="stylesheet" href="fontcustom.css"></head><body><nav class="xnav"><a class="xnav-brand" href="index.html"><img src="i/logo-horizontal-blanco.png"></a><ul class="menu"><li><a href="#{baseUrl}">Navegación</a><ul class="submenu"><li><a href="./informacion.html">Información</a></li><li><a href="./clases.html">Clases</a></li><li><a href="./hazte_socio.html">Hazte socio</a></li><li class="newgroup"><a href="./actividades.html">Actividades</a></li><li class="newgroup"><a href="./hockey_linea.html">Hockey Línea</a></li></ul></li></ul></nav><script>(function() {
+   l = document.querySelectorAll('ul.menu > li > a');
+   for(i=0; i<l.length; i++) {
+       l[i].addEventListener('click', function(e) {
+           this.classList.toggle('active');
+           this.blur();
+           for(j=0; j<l.length; j++) {
+               if(l[j] != this) {
+                   l[j].classList.remove('active');
+               }
+           }
+           e.preventDefault();
+         });
+   }
+ })();</script><section class="main"><header class="title"><h1>Hazte socio</h1></header><article id="tarifas"><header class="entry-header"><h1>Tarifas</h1></header><div class="entry-content"><p>El precio de la couta de socio del club se adapta en función de
+las actividades en las que participe el socio, y tiene carácter
+anual, desde Septiembre hata Julio.
+</p><table class="tarifas"><thead><tr><th>Actividad</th><th>Precio</th></tr></thead><tbody><tr><td>Clase de patinaje para adultos</td><td>35€</td></tr><tr><td>Freestyle Slalom</td><td>35€</td></tr><tr><td>Clase de patinaje para niños</td><td>precio de la ficha federativa</td></tr><tr><td>Hockey Línea</td><td>precio de la ficha federativa</td></tr></tbody></table><p>Si aún no las conoces,
+<a href="./clases.html">consulta nuestras clases y sus precios</a>.
+
+</p></div></article><article id="alta_de_socio"><header class="entry-header"><h1>Alta de socio</h1></header><div class="entry-content"><p>Para formalizar el alta de socio debes cubrir el formulario de
+google.
+</p><div class="CTA"><p><a href="https://goo.gl/forms/L6qMHvawJytJhwoy1">Alta de socio</a></p></div></div></article></section><footer><h4>Colaboradores</h4><ul class="colaboradores"><li><a class="fn org url" href="https://www.grindhouse.eu/"><img src="i/logo-grindhouse.png"></a></li><li><a class="fn org url" href="http://in-gravity.com/"><img src="i/logo-ingravity.png"></a></li><li><a class="fn org url" href="http://roex.es/"><img src="i/logo-roex.png"></a></li></ul><div class="source-org vcard copyright"><p><span class="org fn">Club Patinaje en Línea Brigantium</span> | <a href="{{ base_url }}/informacion/#contacto">Contacto</a> | <a href="#">Imprint</a> | <span class="sm foot">Síguenos en:<a href="https://www.facebook.com/CPLBrigantium" title="CPL Brigantium en Facebook"><i class="icon-facebook glyph-small" aria-hidden="true"></i></a><a href="https://instagram.com/cplbrigantium/" title="CPL Brigantium en Instagram"><i class="icon-instagram glyph-small" aria-hidden="true"></i></a><a href="https://twitter.com/cplbrigantium" title="CPL Brigantium en Twitter"><i class="icon-twitter glyph-small" aria-hidden="true"></i></a><a href="https://www.youtube.com/channel/UCGVWXFQv4U6L3GjDA3QRZFg" title="CPL Brigantium en Youtube"><i class="icon-youtube glyph-small" aria-hidden="true"></i></a><a href="https://plus.google.com/114153567720639382107/about" title="CPL Brigantium en Google+"><i class="icon-googleplus glyph-small" aria-hidden="true"></i></a></span></p></div></footer></body></html>
